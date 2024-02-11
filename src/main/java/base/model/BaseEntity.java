@@ -1,9 +1,6 @@
 package base.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.io.Serializable;
 
@@ -11,6 +8,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @Getter
 @Setter
+@ToString
 
 public class BaseEntity <ID extends Serializable>{
     private ID id;
