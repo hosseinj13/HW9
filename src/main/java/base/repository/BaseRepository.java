@@ -15,3 +15,4 @@ public interface BaseRepository<ID extends Serializable, TYPE extends BaseEntity
     int numOfOneArray(int id) throws SQLException;
 
 }
+
