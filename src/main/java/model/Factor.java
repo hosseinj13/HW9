@@ -11,6 +11,7 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
 
+
 public class Factor extends BaseEntity<Integer> {
 
    Product product;
