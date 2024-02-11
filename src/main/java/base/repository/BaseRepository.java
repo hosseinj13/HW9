@@ -16,3 +16,5 @@ public interface BaseRepository<ID extends Serializable, TYPE extends BaseEntity
 
 }
 
+
+
