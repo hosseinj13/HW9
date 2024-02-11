@@ -30,6 +30,7 @@ public class BaseServiceImpel<ID extends Serializable, TYPE extends BaseEntity<I
         return repository.findByName(name);
     }
 
+
     @Override
     public int editName(String oldName, String newName) throws SQLException {
         return 0;
