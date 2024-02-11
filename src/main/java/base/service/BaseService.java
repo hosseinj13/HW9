@@ -11,3 +11,6 @@ public interface BaseService<ID, TYPE> {
     int delete(String name) throws SQLException;
 
 }
+
+
+
