@@ -11,6 +11,7 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
 
+
 public class Admin extends BaseEntity<Integer> {
     String name;
     String username;
