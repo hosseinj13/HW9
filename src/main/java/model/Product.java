@@ -13,6 +13,7 @@ import java.sql.Date;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
 
+
 public class Product extends BaseEntity<Integer> {
 
     String productName;
